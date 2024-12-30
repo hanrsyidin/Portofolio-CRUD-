@@ -1,0 +1,105 @@
+@import "../../vars.css";
+
+.container {
+    color: var(--color-text);
+    position: relative;
+    background-color: rgba(12,12,12,0.6);
+    border-radius: 15px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 2%;
+}
+
+.title {
+    color: var(--color-text);
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.commentSection {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    margin-top: 37px;
+    /* align-items: center; */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 1% 1%;
+    max-width: 345px;
+    height: 100%;
+    margin-bottom: 25px;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: rgba(12,12,12,0.4);
+    font: inherit;
+    color: inherit;
+    box-shadow: none;
+    outline: none; 
+    height: 35px;
+    font-size: larger;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255,255,255,0.3);
+}
+
+.nameComment {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.commentComment {
+    font-size: larger;
+    display: flex;
+    gap: 10px;
+}
+
+.theComments {
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
+    box-shadow: 0 16px 14px 0 #04152d;
+    padding: 1% 1%;
+    margin-bottom: 10px;
+}
+
+.containerComment {
+    display: flex;
+    flex-direction: column;
+}
+
+.theComments button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: rgba(12,12,12,0.4);
+    font: inherit;
+    color: inherit;
+    box-shadow: none;
+    outline: none; 
+    height: 35px;
+    font-size: larger;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hasil {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,16 @@
+[
+    {
+      "title": "IslamPedia",
+      "imageSrc": "projects/islampedia.png",
+      "description": "IslamPedia is a web-based platform that provides articles on Islamic knowledge, such as Surahs, Sunnah, and more",
+      "skills": ["PHP", "MySQL", "CI4"],
+      "source": "https://github.com/hanrsyidin/IslamPedia"
+    },
+    {
+        "title": "Linkcookie-v1",
+        "imageSrc": "projects/linkcookie-v1.png",
+        "description": "Linkcookie-v1 is my first project themed around e-commerce user interfaces. I used this project to apply for the HMIF 2024 submission",
+        "skills": ["HTML", "CSS", "Figma"],
+        "source": "https://github.com/hanrsyidin/Website-Personal"
+      }
+]
